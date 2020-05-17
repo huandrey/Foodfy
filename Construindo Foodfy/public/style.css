@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    display: flex;
+    width: 940px;
+    padding: 30px 0;
+    margin: 0 auto;
+   
+}
+
+.logo {
+    color: #111111;
+    font-family: 'Times New Roman', regular;
+    font-size: 27px;
+    letter-spacing: 2px;
+}
+
+
+nav ul li {
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+nav ul:nth-child(1) {
+    margin-left: 122.4px;
+}
+
+nav ul a {
+    font-size: 16px;
+    line-height: 19px;
+    color: #111111;
+}
+
+.cartaz {
+    display: flex;
+    width: 940px;
+    height: 366px;
+    background: #FBDFDB;
+    border-radius: 30px;
+    margin: 0 auto;
+    
+}
+
+section {
+    width: 940px;
+    margin: 0 auto;
+    
+}
+
+.cartaz h2, p {
+    margin-left: 60px;
+}
+
+.cartaz h2 {
+    padding-top: 117px;
+    font-size: 32px;
+    line-height: 38px;
+    font-weight: bold;
+}
+
+.cartaz p {
+    font-size: 18px;
+    line-height: 28px;
+    opacity: 70%;
+    width: 316px;
+}
+
+.cartaz img {
+    width: 216px;
+    height: 300px;
+    margin-left: 200px;
+    margin-top: 66px;
+}
+
+#cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    width: 960px;
+    margin: 0 auto;
+   
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.card {
+    width: 300px;
+    cursor: pointer;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.card:hover {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.card img {
+    max-width: 300px;
+    border-radius: 15px;
+
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    
+}
+
+.card img:hover {
+    box-shadow: 1px 1px 2px -1px rgba(0, 0,0, .8);
+}
+
+.card h4 {
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 400;
+}
+
+.card p {
+    font-size: 14px;
+    color: #777777;
+    margin: 5px 0;
+}
+
+footer {
+    width: 100%;
+    height: 62px;
+    background: #EEEEEE;
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 23px;
+    font-size: 14px;
+    line-height: 16px;
+    color: #999999;
+}
+
+/* SOBRE */
+
+.sobre h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.sobre {
+    width: 940px;
+    margin: 0 auto;
+
+}
+
+.sobre p {
+    margin: 0;
+    font-size: 18px;
+    color: #444444;
+    line-height: 28px;
+}
+
+#cards.receitas {
+    margin-top: 20px;
+}
+
+/* --- modal --- */
+
+.modal-overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0,0, .7);
+    position: fixed;
+    top: 0;
+    visibility: hidden;
+}
+
+@keyframes open {
+    from {
+        opacity: 0;
+        transform: translateY(15px);
+    }
+    to {
+        visibility: visible;
+    }
+}
+.modal-overlay.active {
+    animation: open 1s;
+    animation-fill-mode: forwards;
+}
+
+.modal {
+    position: fixed;
+    top: calc(50% - 204px);
+    left: calc(50% - 330px);
+    
+    width: 660px;
+    height: 413px;
+    background: #FFFFFF;
+    border-radius: 16px;
+    box-shadow: 1px 1px 4px -3px #111111;
+    
+}
+
+.modal img {
+    width: 600px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 15px;
+    margin: 30px 30px 20px 30px;
+}
+
+.modal h4 {
+    font-size: 24px;
+    text-align: center;
+    color: #111111;
+    font-weight: 400;
+    line-height: 28px;
+    margin: 0;
+}
+
+.modal p {
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #777777;
+    margin: 0;
+    margin-top: 5px;
+    margin-bottom: 60px;
+    font-weight: 400;
+}
+
+.modal a {
+    display: block;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #999999;
+    line-height: 19px;
+    font-weight: 400px;
+}
+
+.modal a:hover {
+    filter: brightness(80%);
+}
