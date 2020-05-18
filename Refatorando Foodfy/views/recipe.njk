@@ -1,0 +1,61 @@
+{% extends "layout.njk" %}
+
+{% block content %}
+
+<div class="content">
+    
+    <img src="{{ recipe.image }}" alt="">
+    
+    <div class="title-information">
+        <h2>{{ recipe.title }}</h4>
+        <p>{{ recipe.author }}</p>
+    </div>
+   
+    <div class="ingredients">
+        <div id="ingredients-list">
+            <div class="content-information">
+                <h3>Ingredientes</h5>
+                <a class="button" recipe-id="ingredients-list">Esconder</a>
+            </div>
+            <ul class="ul-information">
+            {% for ingredient in recipe.ingredients %}
+                <li>{{ ingredient }}</li>
+            {% endfor %}
+
+            </ul>
+        </div>
+    </div>
+
+    <div class="preparation">
+        <div id="preparation-list">
+            <div class="content-information">
+                <h3>Modo de Preparo</h5>
+                <a class="button" recipe-id="preparation-list">Esconder</a>
+            </div>
+            <ul>
+            {% for preparation in recipe.preparation %}
+                <li>{{preparation}}</li>
+            {% endfor %}
+            </ul>
+        </div>
+    </div>
+    
+    <div class="add-information">
+        <div id="information-list">
+            <div class="content-information">
+                <h3>Informações Adicionais</h5>
+                <a class="button" recipe-id="information-list">Esconder</a>
+            </div>
+            {% for information in recipe.information.split('\n') %}
+                <p>{{ information }} </p>
+            {% endfor %}
+        </div>
+    </div>
+
+</div>
+    
+<footer>Todos direitos reservados, receitas Foodfy</footer>
+
+<script src="../scripts.js"></script>
+
+{% endblock content %}
