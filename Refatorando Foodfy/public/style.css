@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* HEADER-START */
+
+header {
+    display: flex;
+    width: 940px;
+    padding: 30px 0;
+    margin: 0 auto;
+}
+
+header > a {
+    color: #111111;
+    font-family: 'Times New Roman', regular;
+    font-size: 27px;
+    letter-spacing: 2px;
+}
+
+
+nav ul li {
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+nav ul:nth-child(1) {
+    margin-left: 122.4px;
+}
+
+nav ul a {
+    font-size: 16px;
+    line-height: 19px;
+    color: #111111;
+}
+
+/* HEADER-END */
+
+
+/* BANNER-START */
+
+.banner {
+    width: 940px;
+    height: 366px;
+    background: #FBDFDB;
+    border-radius: 30px;
+    margin: 0 auto;   
+    overflow: hidden;
+
+}
+
+.banner img {
+    width: 216px;
+    height: 300px;
+    margin-left: 200px;
+    margin-top: 66px;
+}
+
+.banner h2 {
+    padding-top: 117px;
+    font-size: 32px;
+    line-height: 38px;
+    font-weight: bold;
+    margin-left: 60px;
+}
+
+.banner p {
+    font-size: 18px;
+    line-height: 28px;
+    opacity: 70%;
+    width: 316px;
+    margin-left: 60px;
+}
+
+.banner-animation {
+    display: flex;
+    animation: anime 2s ease-in-out;
+}
+
+@keyframes anime {
+    to {    
+        opacity: 1;
+    }
+    from {
+        transform: translateX(-366px);
+        opacity: 0;
+    }
+}
+
+/* BANNER-END */
+
+
+/* SECTION-CARD-START */
+
+section {
+    width: 940px;
+    margin: 0 auto;
+}
+
+#cards {
+    width: 940px;
+    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    
+    margin: 0 auto;
+}
+
+section > h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.card {
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    
+    cursor: pointer;
+}
+
+.card:hover {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.card img {
+    max-width: 300px;
+    border-radius: 15px;
+
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.card h4 {
+    color: #111111;
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 400;
+}
+
+.card p {
+    font-size: 14px;
+    color: #777777;
+    margin: 5px 0;
+}
+
+/* SECTION-CARD-END */
+
+
+/* FOOTER-START */
+
+footer {
+    width: 100%;
+    height: 62px;
+    background: #EEEEEE;
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 23px;
+    font-size: 14px;
+    line-height: 16px;
+    color: #999999;
+}
+
+footer.recipes-footer {
+    position: absolute;
+    bottom: 0;
+}
+
+/* FOOTER-END */
+
+
+/* ABOUT-PAGE */
+
+.about {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.about h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 18px;
+    line-height: 28px;
+    color: #444444;
+    margin: 0;
+}
+
+/* RECIPES-PAGE */
+
+#cards.recipes {
+    margin-top: 20px;
+}
+
+/* RECIPE-PAGE */
+
+.content {
+    width: 940px;
+    margin: 0 auto; 
+}
+
+.content img{
+    min-width: 940px;
+    max-height: 280px;
+    margin-top: 26px;
+    
+    border-radius: 15px;
+    object-fit: cover;
+    object-position: top;
+}
+
+.content h3, .content h2, .content p {
+    margin: 0;
+}
+
+.content h2, .content p{
+    text-align: center;
+}
+
+.content h2 {
+    font-size: 36px;
+    line-height: 42px;
+    font-weight: bold;
+    color: #111111;
+    margin-top: 50px;
+    margin-bottom: 4px;
+}
+
+.content h3 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #111111;
+    line-height: 28px;
+    margin-bottom: 20px;
+    margin-right: 8px;
+}
+
+.content a {
+    cursor: pointer;
+}
+
+.content-information {
+    display: flex;
+}
+
+.content-information a {
+    position: relative;
+    top: 10px;
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: bold;
+    color: #999999;
+    text-transform: uppercase;
+}
+
+.content-information a:hover {
+    filter: brightness(80%);
+}
+
+.title-information p {
+    font-size: 20px;
+    line-height: 24px;
+    color: #777777;
+
+    margin-bottom: 50px;
+}
+
+.ingredients, .preparation, .add-information {
+    margin-bottom: 39px;
+}
+
+#ingredients-list ul {
+    width: 940px;
+    min-height: 100px;
+}
+
+#ingredients-list.hidden ul, #preparation-list.hidden li, #information-list.hidden p{
+    display: none;
+}
+
+#ingredients-list ul li, #preparation-list ul li, #information-list p{
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #444444; 
+    list-style-type: initial;
+    list-style: inside;
+}
+
+#ingredients-list ul li {
+    list-style-image: url('https://image.flaticon.com/icons/png/16/2721/2721991.png');
+}
+
+#preparation-list ul li {
+    list-style-type: decimal;
+}
+
+.add-information p{
+    text-align: initial;
+}
+
+#information-list p {
+    margin-bottom: 25px;
+}
