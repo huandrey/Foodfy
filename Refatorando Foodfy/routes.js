@@ -14,11 +14,10 @@ routes.get('/about', (req, res) => {
     return res.render('about')
 })
 
-routes.get('/recipes/:index', (req, res) => {
+routes.get('/recipe/:index', (req, res) => {
     let recipeIndex = Number(req.params.index);
     recipeIndex -= 1;
-    //console.log(recipeIndex)
-    return res.render('recipesInfo', { recipe: recipes[recipeIndex]})
+    return res.render('recipe', { recipe: recipes[recipeIndex]})
 })
 
 module.exports = routes;
