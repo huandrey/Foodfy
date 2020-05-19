@@ -1,10 +1,10 @@
 {
   "name": "foodfy",
   "version": "1.0.0",
-  "description": "site completo para uma empresa de receitas",
+  "description": "site para uma empresa de receitas",
   "main": "index.js",
   "scripts": {
-    "start": "npm-run-all -p browsersync nodemon",
+    "start": "npm-run-all -p nodemon browsersync",
     "nodemon": "nodemon index.js",
     "browsersync": "browser-sync start --proxy http://localhost:4000 --files['public', 'views']"
   },
@@ -18,13 +18,13 @@
     "url": "https://github.com/huandrey/foodfy/issues"
   },
   "homepage": "https://github.com/huandrey/foodfy#readme",
-  "dependencies": {
-    "express": "^4.17.1",
-    "nunjucks": "^3.2.1"
-  },
   "devDependencies": {
     "browser-sync": "^2.26.7",
-    "nodemon": "^2.0.4",
     "npm-run-all": "^4.1.5"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4",
+    "nunjucks": "^3.2.1"
   }
 }
