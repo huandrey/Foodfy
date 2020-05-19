@@ -31,9 +31,8 @@
   &nbsp;|&nbsp;
   <a href="#instalação-e-execução">Instalação e Execução</a>
   &nbsp;|&nbsp;
-  <a href="#Licença"></a>
+  <a href="#Licença">Licença</a>
   &nbsp;&nbsp;
-  <a href="#memo-license">Licença</a>
 </p>
 
 ## 🧩&nbsp;&nbsp;Sobre o desafio
@@ -79,7 +78,7 @@ npm install
 npm start
 ```
 
-## 📖&nbsp; Licença
+## 📖&nbsp;&nbsp;Licença
 
 This project is licensed under the MIT License - see the [LICENSE](https://opensource.org/licenses/MIT) page for details.
 
