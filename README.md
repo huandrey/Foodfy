@@ -28,7 +28,7 @@
   <a href="#tecnologias-utilizadas">Tecnologias Utilizadas</a>
   &nbsp;|&nbsp;
   <a href="#requisitos-para-funcionar">Requisitos para funcionar</a>
-  &nbsp;|&nbsp;
+  &nbsp;|&nbsp
   <a href="#instalação-e-execução">Instalação e Execução</a>
   &nbsp;|&nbsp;
   <a href="#Licença">Licença</a>
@@ -36,7 +36,11 @@
 </p>
 
 ## 🧩&nbsp;&nbsp;Sobre o desafio
-O projeto **Foodfy** é um site de receitas que foi criado dentro do Curso Launchbase, turma 04 da Rocketseat como forma de desafio. Com essa aplicação foi possível pôr em prática todos os conhecimentos adquiridos até então, utilizando tecnologias inovadoras e de ponta desde o Front-end até o Back-end.
+O projeto [**Foodfy**](https://foodfy-bootcamp.herokuapp.com/) é um site de receitas que foi criado dentro do Curso Launchbase, turma 04 da [Rocketseat](rocketseat.com.br) como forma de desafio. Com essa aplicação foi possível pôr em prática todos os conhecimentos adquiridos até então, utilizando tecnologias inovadoras e de ponta desde o Front-end até o Back-end.
+
+<img src="Refatorando Foodfy/public/assets/foodfy.gif">
+
+---
 
 ## 🚀&nbsp;&nbsp;Tecnologias Utilizadas
 - [Node](nodejs.org)
@@ -45,6 +49,8 @@ O projeto **Foodfy** é um site de receitas que foi criado dentro do Curso Launc
 - [Nunjucks](https://mozilla.github.io/nunjucks/)
 - [Browsersync](https://www.browsersync.io/)
 - [Nodemon](https://nodemon.io/)
+
+---
 
 ## 🗳&nbsp;Requisitos para funcionar 
 - Ter alguma versão do git
@@ -56,7 +62,9 @@ O projeto **Foodfy** é um site de receitas que foi criado dentro do Curso Launc
   - Linux [[Link]](https://nodejs.org/en/)
   - Windows [[Link]](https://nodejs.org/en/)
 
-## 🖥&nbsp; Instação e Execução
+---
+
+## 🖥&nbsp;&nbsp;Instação e Execução
 
 <b>Clonando o repositório:</b>
 
@@ -78,10 +86,11 @@ npm install
 npm start
 ```
 
+---
+
 ## 📖&nbsp;&nbsp;Licença
 
 This project is licensed under the MIT License - see the [LICENSE](https://opensource.org/licenses/MIT) page for details.
 
 <br>
 <p align="center">Desenvolvido 💙 por Huandrey Pontes<p>
-
