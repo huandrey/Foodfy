@@ -10,45 +10,79 @@
 
 <p align="center">
   
-  <a href="/LICENSE" >
+  <a href="/LICENSE" > 
     <img alt="License" src="https://img.shields.io/badge/license-MIT-%23F8952D">
   </a>
  
   <a href="https://www.twitter.com/huapss" >
-  <img alt="My Linkedin" src="https://img.shields.io/badge/-huapss-gray?style=social&logo=twitter">
+  <img alt="My Linkedin" src="https://img.shields.io/badge/-uandrei-gray?style=social&logo=twitter">
   </a>
  
 </p>
 
+[<h3 align="center">Acessar demonstração<h3>](https://foodfy-bootcamp.herokuapp.com/)
+
 <p align="center">
-  <a href="#rocket-about-this-repo">About this repo</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#computer-installation-and-execution">Installation and Execution</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#memo-license">License</a>
+  <a href="#sobre-o-desafio">Sobre o desafio</a>
+  &nbsp;&nbsp;|&nbsp;&nbsp;
+  <a href="#tecnologias-utilizadas">Tecnologias Utilizadas</a>
+  &nbsp;&nbsp;|&nbsp;&nbsp
+  <a href="#requisitos-para-funcionar">Requisitos para funcionar</a>
+  &nbsp;&nbsp;|&nbsp;&nbsp;
+  <a href="#instalação-e-execução">Instalação e Execução</a>
+  &nbsp;&nbsp;|&nbsp;&nbsp;
+  <a href="#Licença"></a>
+  &nbsp;&nbsp;
+  <a href="#memo-license">Licença</a>
 </p>
 
-## :rocket: About this repo
-<p 'text-align=justify'>
-This recipe site was developed as a challenge for the Rocketseat Launchbase Bootcamp, class 4. Basic web technologies were used at the beginning (HTML, CSS, JAVASCRIPT). Subsequently, the back-end was made using Node.js. As soon as the project became big, a template engine, called nunjucks, was implemented. This, in turn, facilitated the use of programming logic and code reuse in the structure that was previously html.
-</p>
+## 🧩&nbsp;&nbsp;Sobre o desafio
+O projeto **Foodfy** é um site de receitas que foi criado dentro do Curso Launchbase, turma 04 da Rocketseat como forma de desafio. Com essa aplicação foi possível pôr em prática todos os conhecimentos adquiridos até então, utilizando tecnologias inovadoras e de ponta desde o Front-end até o Back-end.
 
-## :computer: Installation and Execution
+## 🚀&nbsp;&nbsp;Tecnologias Utilizadas
+- [Node](nodejs.org)
+- [Express](expressjs.org)
+- [Javascript]()
+- [Nunjucks](https://mozilla.github.io/nunjucks/)
+- [Browsersync](https://www.browsersync.io/)
+- [Nodemon](https://nodemon.io/)
+
+## 🗳&nbsp;Requisitos para funcionar 
+- Ter alguma versão do git
+  - masOS [[Link]](https://git-scm.com/download/mac)
+  - Linux [[Link]](https://git-scm.com/download/linux)
+  - Windows [[Link]](https://git-scm.com/download/win)
+- Ter alguma versão do node (dica: baixar a versão LTS)
+  - macOS [[Link]](https://nodejs.org/en/)
+  - Linux [[Link]](https://nodejs.org/en/)
+  - Windows [[Link]](https://nodejs.org/en/)
+
+## 🖥&nbsp; Instação e Execução
 
 <b>Clonando o repositório:</b>
-- ```$ git clone https://github.com/huandrey/foodfy.git```
+
+```bash 
+
+$ git clone https://github.com/huandrey/foodfy.git
+
+```
 
 <b>Download das dependências:</b>
-<p>Direcione-se para a raíz do projeto</p>
+<p>Direcione-se para a raíz do projeto (Foodfy/Refatorando Foodfy/)</p>
 
-- ```npm install```
+```bash 
+npm install
+```
 
 <b>Executando:</b>
-- `npm run dev`
+```bash
+npm start
+```
 
-
-## License
+## 📖&nbsp; Licença
 
 This project is licensed under the MIT License - see the [LICENSE](https://opensource.org/licenses/MIT) page for details.
 
-## :memo: License
+<br>
+<p align="center">Desenvolvido 💙 por Huandrey Pontes<p>
 
-This Project is under MIT License. Read the [LICENSE](./LICENSE) file for more details.
