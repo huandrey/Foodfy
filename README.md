@@ -24,13 +24,13 @@
 
 <p align="center">
   <a href="#sobre-o-desafio">Sobre o desafio</a>
-  &nbsp;&nbsp;|&nbsp;&nbsp;
+  &nbsp;|&nbsp;
   <a href="#tecnologias-utilizadas">Tecnologias Utilizadas</a>
-  &nbsp;&nbsp;|&nbsp;&nbsp
+  &nbsp;|&nbsp;
   <a href="#requisitos-para-funcionar">Requisitos para funcionar</a>
-  &nbsp;&nbsp;|&nbsp;&nbsp;
+  &nbsp;|&nbsp;
   <a href="#instalação-e-execução">Instalação e Execução</a>
-  &nbsp;&nbsp;|&nbsp;&nbsp;
+  &nbsp;|&nbsp;
   <a href="#Licença"></a>
   &nbsp;&nbsp;
   <a href="#memo-license">Licença</a>
